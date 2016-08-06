@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#B30000">
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_centerVertical="true"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/steve"
+        android:layout_width="80dp"/>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_alignTop="@+id/profileImage"
+        android:layout_alignBottom="@+id/profileImage"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/profileImage"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:textSize="15sp"
+            android:id="@+id/navHeaderUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rahul Yadav"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+        <TextView
+            android:textSize="15sp"
+            android:id="@+id/navHeaderUserEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="ry@gmail.com" />
+        <TextView
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:id="@+id/navHeaderUserPlan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9050567809" />
+    </LinearLayout>
+</RelativeLayout>

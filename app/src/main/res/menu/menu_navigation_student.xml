@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/accounts"
+        android:icon="@drawable/account"
+        android:title="Accounts"/>
+    <item android:id="@+id/teachers"
+        android:title="Teachers"
+        android:icon="@drawable/teacher"/>
+    <item android:id="@+id/groups"
+        android:icon="@drawable/toolset"
+        android:title="Groups"/>
+    <item android:id="@+id/classmates"
+        android:icon="@drawable/classmate"
+        android:title="Classmates"/>
+    <item android:id="@+id/academics"
+        android:icon="@drawable/academic"
+        android:title="Academics"/>
+    <item android:id="@+id/utilities"
+        android:icon="@drawable/utility"
+        android:title="Utilities"/>
+    <item android:id="@+id/signout"
+        android:icon="@drawable/logout"
+        android:title="Sign Out"/>
+
+
+</menu>

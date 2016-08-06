@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:paddingBottom="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/steve"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#FF000000"
+        android:id="@+id/userImage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/userImage"
+        android:layout_toRightOf="@+id/userImage"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:id="@+id/userName"
+        android:textSize="17sp"
+        android:text="Rahul Yadav"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/userImage"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/double_tick"
+        android:layout_alignBottom="@+id/lastChatMess"
+        android:id="@+id/doubleTick"
+        android:layout_below="@+id/userName"/>
+
+    <TextView
+        android:id="@+id/lastChatMess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/doubleTick"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/userName"
+        android:text="Hey What is Going On.."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_alignTop="@id/userImage"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:text="08:30"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeStamp"/>
+
+
+
+
+
+</RelativeLayout>
