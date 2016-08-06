@@ -19,11 +19,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".ogin" />
-        <activity android:name=".StudentMain"></activity>
+        <activity android:name=".StudentMain" />
         <activity
             android:name=".ImageShow"
             android:theme="@android:style/Theme.NoTitleBar" />
-        <activity android:name=".AccountActivity"></activity>
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".TeachersActivity" />
+        <activity android:name=".UtilityActivity"></activity>
     </application>
 
 </manifest>
