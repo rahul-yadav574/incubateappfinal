@@ -68,6 +68,16 @@ public class StudentMain extends AppCompatActivity {
                         Intent intent = new Intent(StudentMain.this,AccountActivity.class);
                         startActivity(intent);
                         break;
+
+                    case R.id.teachers:
+                        Intent intent1 = new Intent(StudentMain.this,TeachersActivity.class);
+                        startActivity(intent1);
+                        break;
+
+                    case R.id.utilities:
+                        Intent intent2 = new Intent(StudentMain.this,UtilityActivity.class);
+                        startActivity(intent2);
+                        break;
                 }
 
 
