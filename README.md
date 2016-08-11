@@ -13,4 +13,9 @@ Wireframe and improvements for the Mappr App ..
 
 Contributors : 
 
-1.) @rahulyadav20111995
+[1 . Rahul Yadav](https://github.com/rahulyadav20111995)
+[2 . Himani Kansal](https://github.com/himani-kansal)
+[3 . Sumit Kumar](https://github.com/sumitkrq)
+[4 . Ankita Aggarwal](https://github.com/himani-kansal)
+
+
